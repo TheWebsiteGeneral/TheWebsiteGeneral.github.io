@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>FlexboxCssGridPuzzleAssignment</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="James Chance">
+    <meta name="keywords" content="Puzzle, Image, Images, Snowman, Snowmen, CSS, Grid, Flexbox">
+</head>
+<body>
+<style>
+    section.Grid {display: grid; gap: 5px; justify-content: center; align-content: center; grid-template-columns: repeat(8, 1fr); grid-template-areas: 
+        'Nm Nm Nm Pnm Pnm Pnm Dt Dt'
+        'Nm Nm Nm Pnm Pnm Pnm Dt Dt'
+        '. . Pz Pz Pz Pz . .'
+        '. . Pz Pz Pz Pz . .'
+        '. . Pz Pz Pz Pz . .';}
+    div.Name {grid-area: Nm; background-color: darkolivegreen;}
+    div.PName {grid-area: Pnm; background-color: darkolivegreen;}
+    div.Puzzle {grid-area: Pz; background-color: darkolivegreen;}
+    div.Date {grid-area: Dt; background-color: darkolivegreen;}
+    section.Flexbox {display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center; align-content: center; width: 80%; margin: auto;}
+    .Centering {margin-left: 40%; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: large; color: aliceblue;}
+</style>
+    <section class="Grid">
+        <div class="Name">
+            <p class="Centering">Name&colon; James Chance</p>
+        </div>
+        <div class="PName">
+            <p class="Centering">Chosen Puzzle&colon; Snowman</p>
+        </div>
+        <div class="Puzzle">
+            <section class="Flexbox">
+                <div class="FlexItem">
+                    <img src="Images/puzzle2_K.jpg" alt="Piece of a Snowman Picture"/>
+                </div>
+                <div class="FlexItem">
+                    <img src="Images/puzzle2_M.jpg" alt="Piece of a Snowman Picture"/>
+                </div>
+                <div class="FlexItem">
+                    <img src="Images/puzzle2_E.jpg" alt="Piece of a Snowman Picture"/>
+                </div>
+                <div class="FlexItem">
+                    <img src="Images/puzzle2_G.jpg" alt="Piece of a Snowman Picture"/>
+                </div>
+                <div class="FlexItem">
+                    <img src="Images/puzzle2_A.jpg" alt="Piece of a Snowman Picture"/>
+                </div>
+                <div class="FlexItem">
+                    <img src="Images/puzzle2_D.jpg" alt="Piece of a Snowman Picture"/>
+                </div>
+                <div class="FlexItem">
+                    <img src="Images/puzzle2_L.jpg" alt="Piece of a Snowman Picture"/>
+                </div>
+                <div class="FlexItem">
+                    <img src="Images/puzzle2_B.jpg" alt="Piece of a Snowman Picture"/>
+                </div>
+                <div class="FlexItem">
+                    <img src="Images/puzzle2_F.jpg" alt="Piece of a Snowman Picture"/>
+                </div>
+                <div class="FlexItem">
+                    <img src="Images/puzzle2_J.jpg" alt="Piece of a Snowman Picture"/>
+                </div>
+                <div class="FlexItem">
+                    <img src="Images/puzzle2_H.jpg" alt="Piece of a Snowman Picture"/>
+                </div>
+                <div class="FlexItem">
+                    <img src="Images/puzzle2_I.jpg" alt="Piece of a Snowman Picture"/>
+                </div>
+                <div class="FlexItem">
+                    <img src="Images/puzzle2_C.jpg" alt="Piece of a Snowman Picture" style="display: none;"/>
+                </div>
+            </section>
+        </div>
+        <div class="Date">
+            <p class="Centering">Date&colon; 4&sol;11&sol;2026</p>
+        </div>
+    </section>
+</body>
+</html>
