@@ -1,0 +1,9 @@
+/* Global Styling */
+body {background-color: cornflowerblue;}
+table, tr, td {border: solid black; background-color: antiquewhite; font-family: Georgia, Times, serif; color: black;}
+table caption {color: aliceblue; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 32px; margin-bottom: 10px;}
+table {margin: auto; margin-top: 200px; border-collapse: collapse;}
+td {padding: 10px; text-align: center;}
+
+/* Specific Styling */
+table tr td:first-child, table tr:first-child td {background-color: rgb(211, 193, 171); font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: large;}
