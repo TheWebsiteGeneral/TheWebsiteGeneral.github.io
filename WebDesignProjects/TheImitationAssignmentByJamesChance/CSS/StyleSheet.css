@@ -1,0 +1,10 @@
+section {margin-top: 30px; text-align: center;}
+.Img1 img {border-radius: 600px / 400px; border: 1px solid black; -webkit-filter:sepia(50%);}
+.Img2 img {-webkit-filter: grayscale(100%); border: 48px solid #000; border-image: url(../Images/tic-tac-toe.png) 48 round; background-repeat: no-repeat;}
+.Img3 img {-webkit-filter: hue-rotate(90deg) drop-shadow(15px 0px 5px black);}
+.Img4 div {background-image: -webkit-linear-gradient(135deg, white, rgb(169, 170, 253), rgb(128, 136, 247)); box-shadow: 0px 10px 15px gray; width: 600px; margin: auto;}
+.Img5 img {border-radius: 100px 0px; -webkit-filter:invert(100%) opacity(75%);}
+section.Img6 {position: relative;}
+.Img6 img {-webkit-filter: blur(4px);}
+.Img6 div {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center;}
+.Img6 div h1 {font-family: Arial, Helvetica, sans-serif; font-weight: thin; font-size: 45px; text-shadow: 3px 3px 2px black;}
