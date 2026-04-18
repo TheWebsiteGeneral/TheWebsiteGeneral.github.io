@@ -1,0 +1,11 @@
+@-webkit-keyframes startBody {0%{color: lightskyblue;} 25%{background-color: dodgerblue;} 50%{background-color: cadetblue;} 75%{background-color: darkcyan;} 100%{background-color: darkslategray;}}
+@-webkit-keyframes startTitle {0%{color: black;} 25%{color: dodgerblue;} 50%{color: cadetblue;} 75%{color: darkcyan;} 100%{color: white;}}
+
+body {background-color: lightskyblue; animation-name: startBody; animation-fill-mode: forwards; animation-delay: 2s; animation-duration: 20s; animation-timing-function: ease-in-out;}
+h1 {color: black; text-align: center;animation-name: startTitle; animation-fill-mode: forwards; animation-delay: 2s; animation-duration: 20s; animation-timing-function: ease-in-out; font-family: Arial, Helvetica, sans-serif;}
+div {background-color: lightskyblue; box-shadow: 5px 5px 15px black; width: 100%; height: 100px; margin: auto; margin-bottom: 25px;}
+p {color: black; text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 18px;}
+div:hover p {color:gold!important; text-shadow: 2px 2px 3px black;}
+section {background-color: lightskyblue; width: 50%; margin: auto;}
+p.P1 {padding-top: 10px;}
+p.P2 {padding-top: 40px; color: lightskyblue; transition: color 2s 0.5s, text-shadow 2s 0.5s;}
