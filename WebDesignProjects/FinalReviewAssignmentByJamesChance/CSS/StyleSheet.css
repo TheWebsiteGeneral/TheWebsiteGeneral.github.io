@@ -1,0 +1,50 @@
+/* Global Styling */
+body {background-color: #121212;}
+h1.Logo {font-family: 'Times New Roman', Times, serif; color: aliceblue; text-shadow: 0px 0px 10px darkturquoise; position: absolute; top: 0%; left: 4%;}
+h1 {font-family: Arial, Helvetica, sans-serif; font-size: 50px; font-weight: bold; color: aliceblue; text-align: center;}
+h2 {font-family: Arial, Helvetica, sans-serif; font-size: 35px; font-weight: bold; color: aliceblue; margin-left: 10%;}
+h3 {font-family: Arial, Helvetica, sans-serif; font-size: 30px; font-weight: bold; color: aliceblue; margin-left: 12%;}
+.Navigation {margin: auto; padding-bottom: 1px; padding-top: 1px; text-align: center; display: flex; align-items: center;}
+.Navigation a {color: aliceblue; margin: auto; margin-top: 1px; padding-bottom: 1px; padding-top: 1px; text-align: center; text-decoration: none; font-style: normal; font-size: 25px; text-shadow: 2px 2px 3px black; display: grid; place-items: center; background-color: darkcyan; height: 60px; width: 20%; border: 2px solid black; font-family: Arial, Helvetica, sans-serif;}
+.Navigation a:nth-child(even) {border-left: 0px; border-right: 0px;}
+.Navigation a:hover {background-color: cadetblue; box-shadow: 1px 1px 8px black;}
+p {font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: normal; color: aliceblue; margin-left: 14%;}
+figure {float: right; text-align: center;}
+figure img {width: 100%; height: auto; display: block; color: aliceblue; font-family: Arial, Helvetica, sans-serif; font-size: 16px;}
+figcaption {color: aliceblue; font-family: Arial, Helvetica, sans-serif; font-size: 16px;}
+figure.Releases {width: 300px; margin: 35px 4% 10px 15px;}
+figure.Home {width: 500px; margin: 35px 25% 10px 15px;}
+figure.Other {width: 450px; margin: 35px 5% 10px 15px;}
+figure.Feedback {width: 350px; margin: 35px 5% 10px 15px;}
+figure.Walkthroughs {width: 400px; margin: 35px 5% 10px 15px;}
+figure.Genres {width: 400px; margin: 35px 10% 10px 15px;}
+
+/* List Styling */
+ul {font-family: Arial, Helvetica, sans-serif; font-size: 25px; color: aliceblue; margin-left: 14%;}
+ul.SubList {font-size: 20px; margin-left: 0%;}
+
+/* Form Styling */
+form {background-color: #424242; color: aliceblue; max-width: 50%; height: auto; margin-left: 14%; padding: 15px;}
+form textarea {max-width: 100%; width: 50%; box-sizing: border-box;}
+form textarea, form label, form input, form fieldset {margin-bottom: 2%;}
+.Optional::after {content: " (optional)"; color: azure; font-size: 10px; vertical-align: top;}
+
+/* Table Styling */
+table, tr, th, td {border: 2px solid #424242; color: aliceblue; padding: 8px; font-family: Arial, Helvetica, sans-serif; text-shadow: 1px 1px 3px black;}
+th {font-size: 18px; background-color: #525252}
+td {font-size: 15px; background-color: dimgray}
+table {border-collapse: collapse; margin-left: 8%; box-shadow: 0px 0px 8px turquoise; margin-right: 26%;}
+table caption {margin-bottom: 10px;}
+
+/* External Link Styling */
+.External {margin: auto; padding-bottom: 1px; padding-top: 1px; display: flex; flex-direction: column; gap: 0;}
+.External a {color: aliceblue; margin-left: 20%; margin-top: 20px; padding-top: 1px; text-align: center; text-decoration: none; font-style: normal; font-size: 25px; text-shadow: 2px 2px 3px black; display: grid; place-items: center; background-color: darkorange; height: 60px; width: 25%; border: 2px solid black; font-family: Arial, Helvetica, sans-serif;}
+.External a.First {margin-top: 1px;}
+.External a:hover {background-color: orange; box-shadow: 1px 1px 8px black;}
+.External p {margin-left: 23%}
+
+/* Video Styling */
+iframe {margin-left: 14%;}
+details {color: aliceblue; font-family: Arial, Helvetica, sans-serif; font-size: 16px; margin-left: 14%;}
+details div{width: 560px; height: auto;}
+details div p {color: aliceblue; font-family: Arial, Helvetica, sans-serif; font-size: 14px; margin-left: 2%; text-wrap: inherit;}
